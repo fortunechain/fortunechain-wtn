@@ -1,0 +1,27 @@
+{
+  "name": "fortunechain-witness",
+  "description": "Fortunechain witness",
+  "author": "Fortunechain",
+  "version": "0.1.7",
+  "main": "start.js",
+  "keywords": [
+    "witness",
+    "fortunechain"
+  ],
+  "license": "MIT",
+  "repository": {
+    "url": "git://github.com/fortunechain/fortunechain-witness.git",
+    "type": "git"
+  },
+  "bugs": {
+    "url": "https://github.com/fortunechain/fortunechain-witness/issues"
+  },
+  "browser": {
+    "request": "browser-request",
+    "secp256k1": "secp256k1/js"
+  },
+  "dependencies": {
+    "fortunechaincore": "git+https://github.com/fortunechain/fortunechaincore.git",
+    "headless-fortunechain": "git+https://github.com/fortunechain/headless-fortunechain.git"
+  }
+}

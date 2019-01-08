@@ -1,0 +1,1 @@
+*/20 * * * * cd fortunechain-witness; node check_daemon.js 1>>~/.config/fortunechain-witness/check_daemon.log 2>>~/.config/fortunechain-witness/check_daemon.err
